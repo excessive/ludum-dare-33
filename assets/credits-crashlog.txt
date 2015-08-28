@@ -1,0 +1,4018 @@
+Please report this on GitHub at https://github.com/excessive/Ludum-Dare-33 or
+send an email to LManning17@gmail.com or send a DM on Twitter to @LandonManning.
+
+=========================
+== 2015-08-21 18:34:50 ==
+=========================
+
+Error: scenes/crash-test.lua:9: give me my wallet back
+stack traceback:
+	[C]: in function 'error'
+	scenes/crash-test.lua:9: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 19:04:40 ==
+=========================
+
+Error: libs/timer.lua:44: libs/cpml/modules/quat.lua:76: attempt to index local 'a' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 19:46:44 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x680e3620
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 21:58:30 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/main-menu.lua:81: attempt to index global 'scene' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 21:58:36 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/main-menu.lua:81: attempt to index global 'scene' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 21:58:48 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/main-menu.lua:81: attempt to index global 'scene' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:184: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 22:03:32 ==
+=========================
+
+Error: libs/tactile.lua:133: attempt to call upvalue 'negative' (a table value)
+stack traceback:
+	libs/tactile.lua:133: in function 'detector'
+	libs/tactile.lua:77: in function 'getValue'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:187: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 22:05:47 ==
+=========================
+
+Error: libs/tactile.lua:136: attempt to call upvalue 'negative' (a table value)
+stack traceback:
+	libs/tactile.lua:136: in function 'detector'
+	libs/tactile.lua:77: in function 'getValue'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:187: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'negative'
+	libs/tactile.lua:133: in function 'detector'
+	libs/tactile.lua:77: in function 'getValue'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:187: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 22:29:02 ==
+=========================
+
+Error: libs/tactile.lua:133: bad argument #1 to 'pairs' (table expected, got function)
+stack traceback:
+	[C]: in function 'pairs'
+	libs/tactile.lua:133: in function 'detector'
+	libs/tactile.lua:77: in function 'getValue'
+	systems/input.lua:33: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'negative'
+	...
+	conf.lua:349: in function 'negative'
+	libs/tactile.lua:133: in function 'detector'
+	libs/tactile.lua:77: in function 'getValue'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:187: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 22:48:37 ==
+=========================
+
+Error: scenes/love3d-test.lua:115: attempt to call field 'switch' (a nil value)
+stack traceback:
+	scenes/love3d-test.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 22:50:04 ==
+=========================
+
+Error: libs/tiny.lua:472: attempt to index local 'system' (a function value)
+stack traceback:
+	libs/tiny.lua:472: in function 'tiny_manageSystems'
+	libs/tiny.lua:626: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 23:01:56 ==
+=========================
+
+Error: libs/tiny.lua:472: attempt to index local 'system' (a function value)
+stack traceback:
+	libs/tiny.lua:472: in function 'tiny_manageSystems'
+	libs/tiny.lua:626: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/tiny.lua:472: in function 'tiny_manageSystems'
+	libs/tiny.lua:626: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 23:16:03 ==
+=========================
+
+Error: scenes/love3d-test.lua:115: attempt to call field 'switch' (a nil value)
+stack traceback:
+	scenes/love3d-test.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 23:16:40 ==
+=========================
+
+Error: libs/tiny.lua:472: attempt to index local 'system' (a function value)
+stack traceback:
+	libs/tiny.lua:472: in function 'tiny_manageSystems'
+	libs/tiny.lua:626: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-21 23:36:26 ==
+=========================
+
+Error: libs/timer.lua:44: libs/cpml/modules/quat.lua:264: attempt to index local 'axis' (a number value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:182: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 00:29:22 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/render.lua:67: 'end' expected (to close 'function' at line 1) near '<eof>'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:31:53 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/camera.lua:100: <name> or '...' expected near ')'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:32:03 ==
+=========================
+
+Error: Syntax error: systems/particle.lua:1: '<name>' expected near '('
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:24: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:32:12 ==
+=========================
+
+Error: Syntax error: systems/particle.lua:51: unexpected symbol near ')'
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:24: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:24: in function 'switch'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:32:26 ==
+=========================
+
+Error: scenes/play2.lua:31: attempt to index global 'cpml' (a nil value)
+stack traceback:
+	scenes/play2.lua:31: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:24: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:32:44 ==
+=========================
+
+Error: systems/particle.lua:28: attempt to index field 'particle_data' (a nil value)
+stack traceback:
+	systems/particle.lua:28: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	scenes/play2.lua:31: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:33:10 ==
+=========================
+
+Error: systems/particle.lua:69: attempt to index global 'p' (a nil value)
+stack traceback:
+	systems/particle.lua:69: in function 'update_particles'
+	systems/particle.lua:76: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/particle.lua:28: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:36:17 ==
+=========================
+
+Error: Syntax error: systems/particle.lua:1: '<name>' expected near '('
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:25: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/particle.lua:69: in function 'update_particles'
+	systems/particle.lua:76: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:36:43 ==
+=========================
+
+Error: Syntax error: systems/particle.lua:39: unexpected symbol near ')'
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:25: in function 'switch'
+	main.lua:195: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:25: in function 'switch'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:37:04 ==
+=========================
+
+Error: systems/particle.lua:16: attempt to index field 'particle_data' (a nil value)
+stack traceback:
+	systems/particle.lua:16: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	scenes/play2.lua:25: in function 'switch'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 01:37:10 ==
+=========================
+
+Error: systems/particle.lua:16: attempt to index field 'particle_data' (a nil value)
+stack traceback:
+	systems/particle.lua:16: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/particle.lua:16: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:206: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:05:59 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:120: attempt to index field 'world' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:06:14 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/camera.lua:14: '}' expected (to close '{' at line 12) near 'projection'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:06:30 ==
+=========================
+
+Error: systems/render.lua:51: attempt to index field 'camera' (a nil value)
+stack traceback:
+	systems/render.lua:51: in function 'draw'
+	systems/render.lua:28: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:07:36 ==
+=========================
+
+Error: systems/render.lua:52: attempt to index local 'camera' (a nil value)
+stack traceback:
+	systems/render.lua:52: in function 'draw'
+	systems/render.lua:29: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/render.lua:51: in function 'draw'
+	systems/render.lua:28: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:08:02 ==
+=========================
+
+Error: systems/render.lua:52: attempt to index local 'camera' (a nil value)
+stack traceback:
+	systems/render.lua:52: in function 'draw'
+	systems/render.lua:29: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:08:24 ==
+=========================
+
+Error: systems/render.lua:52: attempt to call method 'send' (a nil value)
+stack traceback:
+	systems/render.lua:52: in function 'draw'
+	systems/render.lua:29: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/render.lua:52: in function 'draw'
+	systems/render.lua:29: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:16:52 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:72: attempt to index field 'player' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:17:03 ==
+=========================
+
+Error: systems/camera.lua:37: attempt to index field 'projection' (a nil value)
+stack traceback:
+	systems/camera.lua:37: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:17:41 ==
+=========================
+
+Error: systems/render.lua:52: attempt to index local 'camera' (a nil value)
+stack traceback:
+	systems/render.lua:52: in function 'draw'
+	systems/render.lua:29: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/camera.lua:37: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:28:54 ==
+=========================
+
+Error: systems/render.lua:41: attempt to call method 'draw' (a nil value)
+stack traceback:
+	systems/render.lua:41: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:51:20 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile vertex shader code:
+Line 5: error: the name "position" is already defined at 0(2)
+Line 5: error: "position" is not a function
+Line 6: error: syntax error, unexpected floating point constant, expecting ')' at token "<float-const>"
+Line 42: error: cannot call a non-function
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'draw'
+	systems/render.lua:41: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:52:37 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile vertex shader code:
+Line 6: error: syntax error, unexpected floating point constant, expecting ')' at token "<float-const>"
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'draw'
+	systems/render.lua:41: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:52:56 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile vertex shader code:
+Line 13: error: undefined variable "modelView"
+Line 14: error: undefined variable "modelView"
+Line 15: error: undefined variable "modelView"
+Line 18: error: undefined variable "modelView"
+Line 19: error: undefined variable "modelView"
+Line 20: error: undefined variable "modelView"
+Line 22: error: undefined variable "modelView"
+Line 23: error: undefined variable "modelView"
+Line 24: error: undefined variable "modelView"
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'draw'
+	systems/render.lua:41: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 02:56:31 ==
+=========================
+
+Error: systems/render.lua:45: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	systems/render.lua:45: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	...
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'draw'
+	systems/render.lua:41: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:14:29 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/particle.lua:27: '}' expected (to close '{' at line 25) near '{'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:14:38 ==
+=========================
+
+Error: libs/timer.lua:44: systems/particle.lua:13: attempt to call field 'newTexture' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:14:50 ==
+=========================
+
+Error: systems/particle.lua:120: bad argument #1 to 'draw' (Drawable expected, got nil)
+stack traceback:
+	[C]: in function 'draw'
+	systems/particle.lua:120: in function 'draw_particles'
+	systems/render.lua:44: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:14:58 ==
+=========================
+
+Error: systems/particle.lua:120: bad argument #1 to 'draw' (Drawable expected, got nil)
+stack traceback:
+	[C]: in function 'draw'
+	systems/particle.lua:120: in function 'draw_particles'
+	systems/render.lua:44: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'draw'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:19:17 ==
+=========================
+
+Error: systems/render.lua:19: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	systems/render.lua:19: in function 'draw'
+	systems/render.lua:60: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:20:03 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/particle.lua:28: '}' expected (to close '{' at line 25) near '{'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'assert'
+	systems/render.lua:19: in function 'draw'
+	systems/render.lua:60: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:208: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 03:33:34 ==
+=========================
+
+Error: libs/tactile.lua:133: attempt to call upvalue 'positive' (a nil value)
+stack traceback:
+	libs/tactile.lua:133: in function 'detector'
+	libs/tactile.lua:77: in function 'getValue'
+	systems/input.lua:20: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:20:14 ==
+=========================
+
+Error: Syntax error: main.lua:308: 'end' expected (to close 'function' at line 149) near '<eof>'
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function <conf.lua:75>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:20:15 ==
+=========================
+
+Error: Syntax error: main.lua:308: 'end' expected (to close 'function' at line 149) near '<eof>'
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function <conf.lua:75>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:20:16 ==
+=========================
+
+Error: Syntax error: main.lua:308: 'end' expected (to close 'function' at line 149) near '<eof>'
+
+stack traceback:
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function <conf.lua:75>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:25:21 ==
+=========================
+
+Error: systems/particle.lua:121: attempt to index field 'offset' (a nil value)
+stack traceback:
+	systems/particle.lua:121: in function 'draw_particles'
+	systems/render.lua:44: in function 'draw_particles'
+	systems/render.lua:58: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function <conf.lua:75>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:29:42 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/particle.lua:58: '}' expected (to close '{' at line 56) near ')'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/particle.lua:121: in function 'draw_particles'
+	systems/render.lua:44: in function 'draw_particles'
+	...
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: at 0x67e4ec10
+	[C]: in function 'require'
+	conf.lua:96: in function <conf.lua:75>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:59:02 ==
+=========================
+
+Error: systems/movement.lua:13: attempt to index field 'camera_system' (a nil value)
+stack traceback:
+	systems/movement.lua:13: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 04:59:38 ==
+=========================
+
+Error: systems/render.lua:19: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	systems/render.lua:19: in function 'draw'
+	systems/render.lua:60: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/movement.lua:13: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 05:00:39 ==
+=========================
+
+Error: scenes/crash-test.lua:9: give me my wallet back
+stack traceback:
+	[C]: in function 'error'
+	scenes/crash-test.lua:9: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'assert'
+	systems/render.lua:19: in function 'draw'
+	systems/render.lua:60: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/movement.lua:13: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 06:07:49 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/render.lua:14: '}' expected (to close '{' at line 12) near ')'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:250: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 15:17:57 ==
+=========================
+
+Error: libs/timer.lua:44: libs/cpml/modules/mat4.lua:248: attempt to index local 't' (a number value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 15:19:14 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a913620
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 15:20:28 ==
+=========================
+
+Error: scenes/play.lua:239: attempt to index field 'camera' (a nil value)
+stack traceback:
+	scenes/play.lua:239: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 15:21:44 ==
+=========================
+
+Error: scenes/play.lua:239: attempt to call method 'invert' (a nil value)
+stack traceback:
+	scenes/play.lua:239: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	scenes/play.lua:239: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 15:39:15 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[C]: in function 'invert'
+	scenes/play.lua:239: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	scenes/play.lua:239: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 16:22:36 ==
+=========================
+
+Error: systems/input.lua:30: attempt to index field 'real_velocity' (a nil value)
+stack traceback:
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 16:23:42 ==
+=========================
+
+Error: systems/input.lua:30: attempt to index field 'real_velocity' (a nil value)
+stack traceback:
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 16:27:38 ==
+=========================
+
+Error: systems/input.lua:30: attempt to index field 'real_velocity' (a nil value)
+stack traceback:
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 16:28:19 ==
+=========================
+
+Error: systems/input.lua:30: attempt to index field 'real_velocity' (a nil value)
+stack traceback:
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 16:57:46 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:24: attempt to call method 'setLooping' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	...
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__newindex'
+	systems/input.lua:30: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 17:01:27 ==
+=========================
+
+Error: libs/timer.lua:44: libs/chain.lua:26: scenes/play.lua:30: attempt to index field 'timer' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 17:43:26 ==
+=========================
+
+Error: systems/collision.lua:74: attempt to index global 'entity' (a nil value)
+stack traceback:
+	systems/collision.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 17:43:30 ==
+=========================
+
+Error: systems/collision.lua:74: attempt to index global 'entity' (a nil value)
+stack traceback:
+	systems/collision.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/collision.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 17:59:06 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile pixel shader code:
+Line 45: error: syntax error, unexpected identifier, expecting ',' or ';' at token "out_color"
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/collision.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 17:59:13 ==
+=========================
+
+Error: systems/collision.lua:12: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'ipairs'
+	systems/collision.lua:12: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 18:05:38 ==
+=========================
+
+Error: systems/collision.lua:12: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'ipairs'
+	systems/collision.lua:12: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'ipairs'
+	systems/collision.lua:12: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 18:06:10 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:255: attempt to index local 's' (a number value)
+stack traceback:
+	libs/cpml/modules/mat4.lua:255: in function 'scale'
+	systems/render.lua:102: in function 'draw'
+	systems/render.lua:53: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'ipairs'
+	systems/collision.lua:12: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 18:06:38 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:524: attempt to perform arithmetic on a table value
+stack traceback:
+	libs/cpml/modules/mat4.lua:524: in function '__mul'
+	systems/render.lua:103: in function 'draw'
+	systems/render.lua:53: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/cpml/modules/mat4.lua:255: in function 'scale'
+	systems/render.lua:102: in function 'draw'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 18:07:42 ==
+=========================
+
+Error: systems/render.lua:97: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'ipairs'
+	systems/render.lua:97: in function 'draw'
+	systems/render.lua:53: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__mul'
+	libs/cpml/modules/mat4.lua:524: in function '__mul'
+	systems/render.lua:103: in function 'draw'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 18:49:56 ==
+=========================
+
+Error: systems/collision.lua:18: attempt to call method 'dist' (a nil value)
+stack traceback:
+	systems/collision.lua:18: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'ipairs'
+	systems/render.lua:97: in function 'draw'
+	systems/render.lua:53: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 19:00:21 ==
+=========================
+
+Error: systems/collision.lua:22: attempt to perform arithmetic on field 'collision' (a nil value)
+stack traceback:
+	systems/collision.lua:22: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'dist'
+	systems/collision.lua:18: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 19:00:29 ==
+=========================
+
+Error: systems/collision.lua:22: attempt to perform arithmetic on field 'collision' (a nil value)
+stack traceback:
+	systems/collision.lua:22: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__add'
+	systems/collision.lua:22: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 19:03:15 ==
+=========================
+
+Error: systems/render.lua:115: attempt to index field 'graphcis' (a nil value)
+stack traceback:
+	systems/render.lua:115: in function 'draw'
+	systems/render.lua:53: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__add'
+	systems/collision.lua:22: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 19:46:44 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:89: Add: wrong argument types (<vector> expected)
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 20:33:56 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile pixel shader code:
+Line 23: error: implicit cast from "float" to "vec3"
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 20:34:13 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile pixel shader code:
+Line 23: error: implicit cast from "float" to "vec3"
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 20:34:24 ==
+=========================
+
+Error: libs/timer.lua:44: Cannot compile pixel shader code:
+Line 23: error: operands to "^" must be integral
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 20:38:13 ==
+=========================
+
+Error: libs/timer.lua:44: libs/love3d/init.lua:297: Invalid Canvas format: rg11b10
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 20:38:20 ==
+=========================
+
+Error: libs/timer.lua:44: libs/love3d/init.lua:297: Invalid Canvas format: rg10b11
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 21:06:53 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a913620
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	...
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:89: in function '__add'
+	systems/particle.lua:63: in function 'spawn_particle'
+	systems/particle.lua:79: in function 'update_particles'
+	systems/particle.lua:115: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 21:53:40 ==
+=========================
+
+Error: systems/particle.lua:77: attempt to index field 'life' (a nil value)
+stack traceback:
+	systems/particle.lua:77: in function 'spawn_particle'
+	systems/particle.lua:103: in function 'update_particles'
+	systems/particle.lua:140: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 22:23:08 ==
+=========================
+
+Error: systems/particle.lua:103: bad argument #1 to 'min' (number expected, got nil)
+stack traceback:
+	[C]: in function 'min'
+	systems/particle.lua:103: in function 'update_particles'
+	systems/particle.lua:141: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/particle.lua:77: in function 'spawn_particle'
+	systems/particle.lua:103: in function 'update_particles'
+	systems/particle.lua:140: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-22 22:31:32 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a913620
+	[C]: in function 'min'
+	systems/particle.lua:103: in function 'update_particles'
+	systems/particle.lua:141: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	systems/particle.lua:77: in function 'spawn_particle'
+	systems/particle.lua:103: in function 'update_particles'
+	systems/particle.lua:140: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:213: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:48:45 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:48:57 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:49:09 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:49:31 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:51:30 ==
+=========================
+
+Error: libs/anim9.lua:23: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:23: in function 'calc_pose'
+	libs/anim9.lua:173: in function 'update'
+	scenes/play.lua:338: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:53:45 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p2' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:172: in function 'update'
+	scenes/play.lua:338: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:23: in function 'calc_pose'
+	libs/anim9.lua:173: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:55:01 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	scenes/play.lua:338: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:172: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:55:09 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	scenes/play.lua:338: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:55:48 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: libs/anim9.lua:97: unexpected symbol near '='
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 00:55:58 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:175: in function 'update'
+	scenes/play.lua:338: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 01:06:48 ==
+=========================
+
+Error: libs/timer.lua:44: libs/anim9.lua:44: attempt to index local 'data' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:175: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 01:06:52 ==
+=========================
+
+Error: libs/timer.lua:44: libs/anim9.lua:44: attempt to index local 'data' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 02:15:25 ==
+=========================
+
+Error: systems/render.lua:83: bad argument #1 to 'print' (string expected, got table)
+stack traceback:
+	[C]: in function 'print'
+	systems/render.lua:83: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 02:32:39 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/input.lua:32: '=' expected near 'speed'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'print'
+	systems/render.lua:83: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 02:32:50 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	scenes/play.lua:352: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 02:34:04 ==
+=========================
+
+Error: libs/anim9.lua:17: attempt to index local 'p1' (a nil value)
+stack traceback:
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	scenes/play.lua:352: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 02:57:11 ==
+=========================
+
+Error: systems/render.lua:75: Variable 'u_noise' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:75: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:174: in function 'update'
+	scenes/play.lua:352: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/anim9.lua:17: in function 'calc_pose'
+	libs/anim9.lua:167: in function 'update'
+	scenes/play.lua:335: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 03:26:34 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/input.lua:17: 'do' expected near 'then'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 03:42:01 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a913620
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 14:49:47 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:84: attempt to index field 'model' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 14:51:00 ==
+=========================
+
+Error: systems/audio.lua:26: This spatial audio functionality is only available for mono Sources. Ensure the Source is not multi-channel before calling this function.
+stack traceback:
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:00:15 ==
+=========================
+
+Error: systems/movement.lua:31: bad argument #5 to 'setOrientation' (number expected, got no value)
+stack traceback:
+	[C]: in function 'setOrientation'
+	systems/movement.lua:31: in function 'process'
+	systems/movement.lua:12: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:07:32 ==
+=========================
+
+Error: libs/timer.lua:44: Could not open file assets/sounds/diver-bubbles.ogg. Does not exist.
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setOrientation'
+	systems/movement.lua:31: in function 'process'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:17:30 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:84: attempt to index field 'model' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:17:32 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:17:33 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:17:34 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	...
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'setPosition'
+	systems/audio.lua:26: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:17:39 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 15:18:14 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:84: attempt to index field 'model' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:09:04 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:161: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:09:08 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:17:04 ==
+=========================
+
+Error: scenes/play.lua:263: attempt to call global 'transform' (a nil value)
+stack traceback:
+	scenes/play.lua:263: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:17:26 ==
+=========================
+
+Error: libs/i18n.lua:83: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/i18n.lua:83: in function 'callable'
+	libs/memoize.lua:57: in function 'lang'
+	scenes/play.lua:298: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function 'transform'
+	scenes/play.lua:263: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:18:52 ==
+=========================
+
+Error: scenes/play.lua:233: attempt to index field 'options' (a nil value)
+stack traceback:
+	scenes/play.lua:233: in function <scenes/play.lua:226>
+	libs/scene.lua:105: in function <libs/scene.lua:100>
+	conf.lua:144: in function 'reset_the_world'
+	conf.lua:349: in function <conf.lua:229>
+	[C]: in function 'assert'
+	libs/i18n.lua:83: in function 'callable'
+	libs/memoize.lua:57: in function 'lang'
+	scenes/play.lua:298: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	scenes/play.lua:263: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:24:05 ==
+=========================
+
+Error: systems/particle.lua:150: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:73: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	scenes/play.lua:233: in function <scenes/play.lua:226>
+	libs/scene.lua:105: in function <libs/scene.lua:100>
+	...
+	scenes/play.lua:263: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 16:26:25 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[C]: in function '__index'
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:73: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	scenes/play.lua:233: in function <scenes/play.lua:226>
+	...
+	scenes/play.lua:263: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:214: in function 'update'
+	conf.lua:171: in function 'reset_the_world'
+	conf.lua:349: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:199: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 17:21:38 ==
+=========================
+
+Error: scenes/play.lua:405: attempt to call field 'setCullng' (a nil value)
+stack traceback:
+	scenes/play.lua:405: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 17:32:18 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/collision.lua:44: unexpected symbol near 'then'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:166: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'setCullng'
+	scenes/play.lua:405: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 17:37:31 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:269: attempt to call method 'to_axis_angle' (a nil value)
+stack traceback:
+	libs/cpml/modules/mat4.lua:269: in function 'rotate'
+	scenes/play.lua:406: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'setCullng'
+	scenes/play.lua:405: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 17:38:45 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:213: cross: wrong argument types (<vector> expected)
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:213: in function 'cross'
+	libs/cpml/modules/quat.lua:84: in function '__mul'
+	scenes/play.lua:400: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'to_axis_angle'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'setCullng'
+	scenes/play.lua:405: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 18:10:36 ==
+=========================
+
+Error: libs/timer.lua:44: Syntax error: systems/input.lua:50: unexpected symbol near ')'
+
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:166: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'assert'
+	libs/cpml/modules/vec3.lua:213: in function 'cross'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'setCullng'
+	scenes/play.lua:405: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:15:52 ==
+=========================
+
+Error: scenes/main-menu.lua:61: attempt to index global 'iqe' (a nil value)
+stack traceback:
+	scenes/main-menu.lua:61: in function 'switch'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:166: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'setCullng'
+	scenes/play.lua:405: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:17:47 ==
+=========================
+
+Error: Syntax error: scenes/main-menu.lua:94: '}' expected (to close '{' at line 66) near 'self'
+
+stack traceback:
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:25:37 ==
+=========================
+
+Error: scenes/main-menu.lua:223: attempt to perform arithmetic on global 'dt' (a nil value)
+stack traceback:
+	scenes/main-menu.lua:223: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:25:58 ==
+=========================
+
+Error: scenes/play.lua:404: attempt to index local 'camera' (a nil value)
+stack traceback:
+	scenes/play.lua:404: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__add'
+	scenes/main-menu.lua:223: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:28:57 ==
+=========================
+
+Error: libs/timer.lua:44: scenes/play.lua:197: attempt to index field 'script' (a nil value)
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:213: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:404: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:29:55 ==
+=========================
+
+Error: libs/timer.lua:44: libs/i18n.lua:83: assertion failed!
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:213: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:31:21 ==
+=========================
+
+Error: libs/timer.lua:44: libs/i18n.lua:83: Expected key of type `string`, got type `table`
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:213: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:31:42 ==
+=========================
+
+Error: libs/timer.lua:44: libs/i18n.lua:83: Expected key of type 'string', got type 'table'
+stack traceback:
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:213: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:36:46 ==
+=========================
+
+Error: scenes/play.lua:431: attempt to index local 'camera' (a nil value)
+stack traceback:
+	scenes/play.lua:431: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'after'
+	libs/timer.lua:44: in function 'update'
+	scenes/main-menu.lua:213: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:37:59 ==
+=========================
+
+Error: scenes/play.lua:431: attempt to index local 'camera' (a nil value)
+stack traceback:
+	scenes/play.lua:431: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:431: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:38:28 ==
+=========================
+
+Error: scenes/play.lua:431: attempt to index local 'camera' (a nil value)
+stack traceback:
+	scenes/play.lua:431: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:431: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:48:15 ==
+=========================
+
+Error: scenes/play.lua:432: attempt to index local 'camera' (a nil value)
+stack traceback:
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:49:31 ==
+=========================
+
+Error: systems/camera.lua:156: attempt to index a nil value
+stack traceback:
+	systems/camera.lua:156: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:52:22 ==
+=========================
+
+Error: systems/camera.lua:156: attempt to index a nil value
+stack traceback:
+	systems/camera.lua:156: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/camera.lua:156: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:53:19 ==
+=========================
+
+Error: scenes/main-menu.lua:198: attempt to perform arithmetic on field 'rotation_speed' (a nil value)
+stack traceback:
+	scenes/main-menu.lua:198: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/camera.lua:156: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:54:54 ==
+=========================
+
+Error: Syntax error: scenes/main-menu.lua:88: unexpected symbol near ','
+
+stack traceback:
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function '__mul'
+	scenes/main-menu.lua:198: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:54:59 ==
+=========================
+
+Error: systems/particle.lua:19: attempt to call method 'getDimensions' (a nil value)
+stack traceback:
+	systems/particle.lua:19: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: at 0x6815ec10
+	[C]: in function 'require'
+	main.lua:191: in function 'load'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:55:07 ==
+=========================
+
+Error: systems/particle.lua:19: attempt to call method 'getDimensions' (a nil value)
+stack traceback:
+	systems/particle.lua:19: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'getDimensions'
+	systems/particle.lua:19: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:58:39 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[C]: in function 'getDimensions'
+	systems/particle.lua:19: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	libs/tiny.lua:627: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'getDimensions'
+	systems/particle.lua:19: in function 'onAdd'
+	libs/tiny.lua:598: in function 'tiny_manageEntities'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	scenes/play.lua:432: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:59:00 ==
+=========================
+
+Error: systems/particle.lua:150: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:59:52 ==
+=========================
+
+Error: systems/particle.lua:6: attempt to call method 'init' (a nil value)
+stack traceback:
+	systems/particle.lua:6: in function <systems/particle.lua:1>
+	scenes/main-menu.lua:108: in function 'switch'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 19:59:54 ==
+=========================
+
+Error: systems/particle.lua:6: attempt to call method 'init' (a nil value)
+stack traceback:
+	systems/particle.lua:6: in function <systems/particle.lua:1>
+	scenes/main-menu.lua:108: in function 'switch'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function 'init'
+	systems/particle.lua:6: in function <systems/particle.lua:1>
+	scenes/main-menu.lua:108: in function 'switch'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:00:05 ==
+=========================
+
+Error: systems/particle.lua:7: attempt to call method 'init' (a nil value)
+stack traceback:
+	systems/particle.lua:7: in function <systems/particle.lua:1>
+	scenes/main-menu.lua:108: in function 'switch'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function 'init'
+	systems/particle.lua:6: in function <systems/particle.lua:1>
+	scenes/main-menu.lua:108: in function 'switch'
+	main.lua:191: in function 'load'
+	conf.lua:122: in function 'reset_the_world'
+	...
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:00:21 ==
+=========================
+
+Error: systems/particle.lua:153: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function 'init'
+	systems/particle.lua:7: in function <systems/particle.lua:1>
+	scenes/main-menu.lua:108: in function 'switch'
+	...
+	conf.lua:122: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:02:38 ==
+=========================
+
+Error: systems/particle.lua:153: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:03:13 ==
+=========================
+
+Error: systems/particle.lua:153: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:03:26 ==
+=========================
+
+Error: systems/particle.lua:150: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	...
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:10:07 ==
+=========================
+
+Error: libs/scene.lua:31: Gamestate not initialized. Use Gamestate.switch()
+stack traceback:
+	[C]: in function 'error'
+	libs/scene.lua:31: in function '__index'
+	libs/scene.lua:125: in function <libs/scene.lua:124>
+	libs/scene.lua:116: in function <libs/scene.lua:111>
+	conf.lua:144: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	...
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:11:23 ==
+=========================
+
+Error: systems/particle.lua:150: attempt to index local 'pd' (a nil value)
+stack traceback:
+	systems/particle.lua:150: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function <conf.lua:233>
+	[C]: in function 'error'
+	libs/scene.lua:31: in function '__index'
+	...
+	conf.lua:175: in function 'reset_the_world'
+	conf.lua:353: in function '__index'
+	systems/particle.lua:153: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:175: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:12:34 ==
+=========================
+
+Error: libs/cpml/modules/quat.lua:76: attempt to index local 'a' (a nil value)
+stack traceback:
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:15:50 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:248: attempt to index local 't' (a nil value)
+stack traceback:
+	libs/cpml/modules/mat4.lua:248: in function 'translate'
+	systems/camera.lua:28: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:16:11 ==
+=========================
+
+Error: libs/cpml/modules/quat.lua:76: attempt to index local 'a' (a nil value)
+stack traceback:
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/mat4.lua:248: in function 'translate'
+	systems/camera.lua:28: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:16:56 ==
+=========================
+
+Error: systems/camera.lua:126: attempt to index field 'direction' (a nil value)
+stack traceback:
+	systems/camera.lua:126: in function 'rotate_xy'
+	systems/movement.lua:24: in function 'process'
+	systems/movement.lua:12: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:17:52 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:63: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:63: in function 'isvector'
+	libs/cpml/modules/vec3.lua:213: in function 'cross'
+	systems/camera.lua:130: in function 'rotate_xy'
+	systems/movement.lua:24: in function 'process'
+	systems/movement.lua:12: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:18:28 ==
+=========================
+
+Error: systems/camera.lua:165: attempt to index a nil value
+stack traceback:
+	systems/camera.lua:165: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/vec3.lua:63: in function 'isvector'
+	libs/cpml/modules/vec3.lua:213: in function 'cross'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:19:04 ==
+=========================
+
+Error: systems/camera.lua:165: attempt to index a nil value
+stack traceback:
+	systems/camera.lua:165: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	systems/camera.lua:165: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:25:42 ==
+=========================
+
+Error: main.lua:101: Incorrect alignment: 50
+stack traceback:
+	[C]: in function 'printf'
+	main.lua:101: in function 'update'
+	main.lua:205: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	systems/camera.lua:165: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:26:01 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a423620
+	[C]: in function 'printf'
+	main.lua:101: in function 'update'
+	main.lua:205: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	systems/camera.lua:165: in function 'send'
+	systems/render.lua:110: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	...
+	main.lua:202: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/cpml/modules/quat.lua:76: in function '__mul'
+	scenes/play.lua:356: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:202: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 20:45:16 ==
+=========================
+
+Error: scenes/play.lua:498: attempt to index global 'subtitle' (a nil value)
+stack traceback:
+	scenes/play.lua:498: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:205: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 21:14:32 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[C]: in function '__index'
+	scenes/play.lua:498: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:205: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-23 21:15:08 ==
+=========================
+
+Error: scenes/play.lua:312: attempt to call method 'transition_out' (a nil value)
+stack traceback:
+	scenes/play.lua:312: in function <scenes/play.lua:305>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 00:47:33 ==
+=========================
+
+Error: scenes/play.lua:413: attempt to call global 'transform' (a nil value)
+stack traceback:
+	scenes/play.lua:413: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 00:48:05 ==
+=========================
+
+Error: scenes/play.lua:558: attempt to call global 'check_hit' (a nil value)
+stack traceback:
+	scenes/play.lua:558: in function <scenes/play.lua:553>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function 'reset_the_world'
+	conf.lua:355: in function 'transform'
+	scenes/play.lua:413: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 00:51:49 ==
+=========================
+
+Error: scenes/play.lua:554: attempt to call global 'check_hit' (a nil value)
+stack traceback:
+	scenes/play.lua:554: in function <scenes/play.lua:549>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function 'reset_the_world'
+	conf.lua:355: in function 'check_hit'
+	scenes/play.lua:558: in function <scenes/play.lua:553>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function 'reset_the_world'
+	conf.lua:355: in function 'transform'
+	scenes/play.lua:413: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 01:26:24 ==
+=========================
+
+Error: systems/animation.lua:11: attempt to index field 'anim' (a nil value)
+stack traceback:
+	systems/animation.lua:11: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'check_hit'
+	scenes/play.lua:554: in function <scenes/play.lua:549>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function 'reset_the_world'
+	...
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function 'reset_the_world'
+	conf.lua:355: in function 'transform'
+	scenes/play.lua:413: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 01:29:31 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[C]: in function '__index'
+	systems/animation.lua:11: in function 'process'
+	libs/tiny.lua:252: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'check_hit'
+	scenes/play.lua:554: in function <scenes/play.lua:549>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	...
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function 'reset_the_world'
+	conf.lua:355: in function 'transform'
+	scenes/play.lua:413: in function 'draw'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:207: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 02:23:08 ==
+=========================
+
+Error: scenes/main-menu.lua:323: attempt to index field 'render_systems' (a nil value)
+stack traceback:
+	scenes/main-menu.lua:323: in function <scenes/main-menu.lua:322>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 02:27:14 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[C]: in function '__index'
+	scenes/main-menu.lua:323: in function <scenes/main-menu.lua:322>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 02:29:16 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a423620
+	[C]: in function '__index'
+	scenes/main-menu.lua:323: in function <scenes/main-menu.lua:322>
+	libs/scene.lua:121: in function <libs/scene.lua:116>
+	conf.lua:146: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 03:41:00 ==
+=========================
+
+Error: main.lua:278: attempt to call global 'g_change_lang' (a nil value)
+stack traceback:
+	main.lua:278: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 03:41:17 ==
+=========================
+
+Error: main.lua:279: attempt to call global 'g_change_lang' (a nil value)
+stack traceback:
+	main.lua:279: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'g_change_lang'
+	main.lua:278: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 03:54:45 ==
+=========================
+
+Error: libs/love3d/init.lua:149: Invalid depth test method.
+stack traceback:
+	[C]: in function 'assert'
+	libs/love3d/init.lua:149: in function 'setDepthTest'
+	systems/particle.lua:149: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:238: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'g_change_lang'
+	main.lua:279: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'g_change_lang'
+	main.lua:278: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 04:30:54 ==
+=========================
+
+Error: attempt to call a nil value
+stack traceback:
+	[builtin#21]: at 0x6a423620
+	[C]: in function 'assert'
+	libs/love3d/init.lua:149: in function 'setDepthTest'
+	systems/particle.lua:149: in function 'draw_particles'
+	systems/render.lua:152: in function 'draw_particles'
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:238: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'g_change_lang'
+	main.lua:279: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function 'g_change_lang'
+	main.lua:278: in function 'update'
+	conf.lua:177: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 13:47:16 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:216: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 13:47:24 ==
+=========================
+
+Error: libs/i18n.lua:57: attempt to index local 'locale' (a nil value)
+stack traceback:
+	libs/i18n.lua:57: in function 'load'
+	main.lua:216: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 13:56:01 ==
+=========================
+
+Error: scenes/crash-test.lua:9: give me my wallet back
+stack traceback:
+	[C]: in function 'error'
+	scenes/crash-test.lua:9: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:245: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:216: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 14:06:04 ==
+=========================
+
+Error: scenes/credits.lua:41: attempt to index global 'iqe' (a nil value)
+stack traceback:
+	scenes/credits.lua:41: in function 'do_switch'
+	conf.lua:131: in function 'reset_the_world'
+	conf.lua:355: in function <conf.lua:235>
+	[C]: in function 'error'
+	scenes/crash-test.lua:9: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:245: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:216: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 14:06:23 ==
+=========================
+
+Error: scenes/credits.lua:43: attempt to index global 'cpml' (a nil value)
+stack traceback:
+	scenes/credits.lua:43: in function 'do_switch'
+	conf.lua:131: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	scenes/credits.lua:41: in function 'do_switch'
+	conf.lua:131: in function 'reset_the_world'
+	conf.lua:355: in function <conf.lua:235>
+	[C]: in function 'error'
+	scenes/crash-test.lua:9: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:245: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:216: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-08-24 14:22:44 ==
+=========================
+
+Error: scenes/credits.lua:151: Incorrect alignment: credits
+stack traceback:
+	[C]: in function 'printf'
+	scenes/credits.lua:151: in function 'draw'
+	systems/render.lua:103: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:245: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	scenes/credits.lua:43: in function 'do_switch'
+	conf.lua:131: in function 'reset_the_world'
+	...
+	scenes/crash-test.lua:9: in function 'update'
+	libs/tiny.lua:657: in function 'update'
+	main.lua:245: in function 'update'
+	conf.lua:177: in function 'reset_the_world'
+	conf.lua:355: in function '__index'
+	libs/i18n.lua:57: in function 'load'
+	main.lua:216: in function 'load'
+	conf.lua:122: in function <conf.lua:103>
+	[C]: in function 'xpcall'
